@@ -1,0 +1,36 @@
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+
+  <!-- The contact me page -->
+<main style="background-color:#212529; color:#FFFFFF; padding-left: 50px;">
+  <div class="jumbotron">
+    <h1 class="display-4">Get in touch:</h1>
+    &nbsp;
+    <h3>Mobile: +1 (437) 986 3503</h3>
+    &nbsp;
+    <h3>Email: antonyyfk@gmail.com</h3>
+    &nbsp;
+    <h4>Email to me</h4>
+    <!-- The email form -->
+    <form method="GET" action="/">
+    <!--<form action="mailto:antonyyfk@gmail.com" method="POST" enctype="text/plain" name="EmailForm">-->
+      Subject:<br>
+      <input type="text" name="subject" placeholder="Your Name"><br>
+      Email:<br>
+      <input type="email" name="email" placeholder="Your Email"><br>
+      Message:<br>
+      <textarea name="body" rows="10" cols="100" placeholder="Your Message"></textarea><br>
+
+    <input type="submit" value="Send">
+    </form><br/><br/><br/>
+
+    <h3><a class="nav-link active" aria-content=page href="https://www.linkedin.com/in/antony-yip-102634215/">LinkedIn</a></h3>
+    &nbsp;
+    <h3><a class="nav-link active" aria-content=page href="https://github.com/antonyyfk">GitHub </a></h3>
+  </div>
+</main>
+    
+<!--bottom nav-->
+<!--script section-->
+<%- include ('partials/bottom_nav.ejs') %>
+<%- include ('partials/footer.ejs') %>
